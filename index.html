@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header><b><h1>SURVEY FORM</h1></b></header>
+   
+    <form id="form">
+        <div id="name" class="formwork">
+            <label for="name" id="form-name">Name</label>
+            <input type="text" id="form-name" placeholder="enter your name">
+        </div>
+        <div id="email" class="formwork">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="enter your email">
+        </div>
+        <div id="age" class="formwork">
+            <label for="age">Age</label>
+            <input type="text" id="age" placeholder="enter your age">
+
+        </div>
+        <div id="occupation" class="formwork">
+            <label for="occupation">Occupation</label>
+            <select name="occupation" id="occupation">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional"> Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="formwork">
+            <label>How good is your coding skill</label>
+            <label for="beginner"><input type="radio" name="coding-skill" id="beginner">beginner</label>
+            <label for="intermediate"><input type="radio" name="coding-skill" id="intermediate">intermediate</label>
+            <label for="expert"><input type="radio" name="coding-skill" id="expert">expert</label>
+        </div>
+        <div class="formwork">
+            <label>Programming languages known <small>(check all that applies)</small></label>
+            <label for="c"><input type="checkbox" name="language" id="c">C</label>
+            <label for="java"><input type="checkbox" name="language" id="java">Java</label>
+            <label for="javascript"><input type="checkbox" name="language" id="javascript">Javascript</label>
+            <label for="python"><input type="checkbox" name="language" id="python">Phython</label>
+            <label for="php"><input type="checkbox" name="language" id="php">PHP</label>
+        </div>
+        <div class="formwork">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" id="" cols="30" rows="10" placeholder="drop your comments here"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
